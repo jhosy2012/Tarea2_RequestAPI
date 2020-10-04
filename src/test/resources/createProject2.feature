@@ -1,4 +1,6 @@
 Feature: Project
+
+  @sharon
   Scenario: I have authentication to todo.ly
 
     Given I have authentication to todo.ly
@@ -41,9 +43,6 @@ Feature: Project
         "OwnerId": EXCLUDE
     }
     """
-
-
-
     And I get the property value 'Id' and save on ID_ITEM
     And I get the property value 'Content' and save on NAME_ITEM
 
